@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2e959cff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: #2e959cff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px; 
+  box-shadow: 2px 2px 5px rgba(34, 37, 36, 0.3); 
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 0rem;
+}
+
+footer > img{
+  width: 200px;
+  margin: 0;
+}
+footer > p{
+display: flex;
+justify-content: space-around;
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+}
+
+.card:hover{
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+
+.imagen-odontologo{
+  width: 100%;
+}
+
+
+nav ul{
+display: flex;
+justify-content: flex-end;
+margin-top: 25px;
+list-style: none;
+width: 90vw;
+
+}
+
+nav ul li{
+  padding: 15px;
+  font-size: 30px;
+}
+
+nav.white ul li a{
+  color: white;
+}
+
+.div-mensaje{
+  background-color:#2e959cff;
+  width: 35%;
+  padding-left: 40px;
+  border: 2px solid #1a1a1b; 
+  border-radius: 5px; 
+  color: #fff; 
+  box-shadow: 2px 2px 5px rgba(9, 182, 96, 0.3); 
+}
+
+.div-contactos{
+  padding-left: 40px;
+  
+}
+
+button{
+  background-color: #2e959cff;
+  display: inline-block;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #1a1a1b; 
+  border-radius: 5px; 
+  color: #fff; 
+  box-shadow: 2px 2px 5px rgba(9, 182, 96, 0.3); 
+  cursor: pointer;
+
+}
+
+.button-navar{
+  margin-right: 90px;
+  margin-top: 40px;
+  height: 55px;
+}
+
+.icono{
+  width: 25px;
+  height: 25px;
+  background-color: #4a4a4aff;
+  margin: 8px;
+  border: 0.2px solid #00000011;
+  box-shadow: 2px 2px 5px rgba(8, 8, 8, 0.3); 
+}
